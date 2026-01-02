@@ -1,0 +1,16 @@
+nav {
+    display: flex;
+    justify-content: center;
+}
+#btn_white {
+    background-color: aqua;
+    color: black;
+    border-radius: 0.5rem;
+    border-color: aqua;
+}
+#btn_dark { 
+    border-color: bisque;
+    color: azure;
+    background-color: #4988C4;
+    border-radius: 0.5rem;
+}

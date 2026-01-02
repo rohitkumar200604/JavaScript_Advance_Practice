@@ -1,0 +1,17 @@
+body {
+    background-color: pink;
+}
+h1 {
+    background-color: yellow;
+    color: blue;
+}
+button {
+    background-color: blue;
+    color: white;
+}
+#mydiv {
+    height: 8rem;
+    width: 8rem;
+    border: 0.125rem solid black;
+    margin: 0.5rem;
+}
