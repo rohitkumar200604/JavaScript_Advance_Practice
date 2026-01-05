@@ -1,3 +1,5 @@
+//DOM
+
 let button = document.getElementById("myId");
 console.dir(button);
 console.log(button);
@@ -34,3 +36,27 @@ butn.addEventListener("click", () => {
 })
 
 butn.removeEventListener("click", remove_event);
+
+
+//Objects and Classes
+//Object
+const student = {
+    fullName: "Student",
+    marks: "99.99",
+    printMarks: function printMarks() {
+        console.log("Marks:",this.marks);   //this.marks means student.marks
+    }
+}
+
+//Prototype
+const calcTax = {
+    calTax() {
+        console.log("The present tax rate is 10%");
+    },
+};
+
+const karan = {
+    salary: 50000,
+};
+
+karan.__proto__ = calcTax;
